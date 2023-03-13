@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtGui import QIcon
 import sys
-#import a
+import a
 import b
 
 class Ui_Dialog(object):
@@ -21,7 +21,7 @@ class Ui_Dialog(object):
         self.pushButton.setText("")
         self.pushButton.setObjectName("pushButton")
 
-        self.icon1 = QtGui.QPixmap(' ')
+        self.icon1 = QtGui.QPixmap('images/img0.png')
         self.pushButton_2 = QtWidgets.QPushButton(Dialog)
         self.pushButton_2.setGeometry(QtCore.QRect(330, 30, 341, 401))
         self.pushButton_2.setText("")
@@ -80,7 +80,7 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.label.setText(_translate("Dialog", "                   Image Encryption"))
-        #self.label_2.setText(_translate("Dialog", "  Embedding encrypted text in the image"))
+        self.label_2.setText(_translate("Dialog", "  Embedding encrypted text in the image"))
 
         self.pushButton.setIcon(QIcon(self.icon0))
         self.pushButton.setIconSize(QtCore.QSize(250,350))
