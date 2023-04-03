@@ -1,6 +1,6 @@
 * This application allows you to keep your images securely and to store your personal data in images. 
 
-* This application is written in Python and Qt, it has been tested on Linux (Pardus and Ubuntu) and MacOS (High sierra) operating systems.
+* This application is written in Python and Qt, it has been tested on Linux (Kali Linux) and Windows operating systems.
 
 
 ### **Application details**
